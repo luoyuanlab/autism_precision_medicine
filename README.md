@@ -80,7 +80,7 @@ These tables contain deleterious variants (defined in `delMuts.R`) from subjects
 There are 3 modes of plotting:
   - Line plotting with error bars
   - LOWESS smoothed plotting
-  - Developmentally phased plotting. 
+  - Developmentally phased plotting
   
 To obtain them, run 
 
