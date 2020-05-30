@@ -77,7 +77,12 @@ These tables contain deleterious variants (defined in `delMuts.R`) from subjects
 
 #### Plotting the Exon Progression:
 
-There are 3 modes of plotting: 1. line plotting with error bars; 2. LOWESS smoothed plotting; 3. Developmentally phased plotting. To obtain them, run 
+There are 3 modes of plotting:
+  - Line plotting with error bars
+  - LOWESS smoothed plotting
+  - Developmentally phased plotting. 
+  
+To obtain them, run 
 
     source('ecTempProgressLOWESS.R')
     source('ecTempProgressPhase.R')
