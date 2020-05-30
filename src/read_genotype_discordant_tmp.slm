@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH -c 1
+#SBATCH -n 1
+#SBATCH -N 1
+#SBATCH -p short
+#SBATCH -t 0-12:00:00
+#SBATCH --mem=10G
+
+source ~/.bashrc
+date "+Starting time: %c"
+# Here is to define the job array
+[setting]
+
+# getting to the working dir
+cd autism_precision_medicine
+
+R -q -e "source('readAutismClusterGTFromVABatch.R'); readAutismClusterGTFromVABatch($suids, version='$version')"
+
+date "+End time: %c"
+# end of job script
