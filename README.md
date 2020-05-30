@@ -14,20 +14,20 @@ First, clone this repository and enter the directory by running:
     cd autism_precision_medicine
     
 The repository is implemented in R 3.x and Python 2.7.x, and depends on the following packages:
-    - reshape2
-    - ggplot2
-    - scales
-    - igraph
-    - GenomicRanges
-    - VariantAnnotation
-    - grid
-    - pheatmap
-    - hash
-    - genefilter
-    - rtracklayer
-    - MASS
-    - foreach
-    - doMC
+  - reshape2
+  - ggplot2
+  - scales
+  - igraph
+  - GenomicRanges
+  - VariantAnnotation
+  - grid
+  - pheatmap
+  - hash
+  - genefilter
+  - rtracklayer
+  - MASS
+  - foreach
+  - doMC
     
 Usage
 -----
