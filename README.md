@@ -91,7 +91,11 @@ To obtain them, run
     source('ecl2TempProgressPhase.R')
     source('ecl2TempProgress.R')
 
-
+Citation
+--------
+```
+Luo, Y., Eran, A., Palmer, N. et al. A multidimensional precision medicine approach identifies an autism subtype characterized by dyslipidemia. Nat Med (2020). https://doi.org/10.1038/s41591-020-1007-0
+```
 
     
     
